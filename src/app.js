@@ -1,5 +1,6 @@
-/*import './utils.js';
-import { square } from './utils.js'*/
+import React from 'react';
+import ReactDOM from 'react-dom';
+import IndecisionApp from './components/IndecisionApp';
 
-console.log('app.js is running');
-console.log(square(4));
+
+ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
